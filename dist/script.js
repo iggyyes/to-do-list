@@ -1,2 +1,2 @@
-"use strict";console.log("pieczareczki");
+"use strict";var listsContainer=document.querySelector("[data-lists]"),lists=["pieczareczki","jakies gowno"];function render(){clearElement(listsContainer),lists.forEach((function(e){var t=document.createElement("li");t.classList.add("list-name"),t.innerText=e,listsContainer.appendChild(t)}))}function clearElement(e){for(;e.firstChild;)e.removeChild(e.firstChild)}render();
 //# sourceMappingURL=script.js.map
